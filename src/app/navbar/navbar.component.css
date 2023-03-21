@@ -1,0 +1,15 @@
+.nav-tabs {
+  border-bottom: 1px solid rgb(30, 30, 30);
+  background: rgb(30, 30, 30);
+
+}
+
+.nav-tabs a {
+  color: white;
+}
+
+
+.nav-tabs a:active,
+.nav-tabs a:hover{
+  color: #07bc0c;
+}

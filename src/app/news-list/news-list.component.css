@@ -1,0 +1,129 @@
+/* .card {
+  display: inline-block;
+  margin: 150px;
+  border: 2px solid wheat;
+
+}
+
+.title {
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: 500;
+  background: rgb(48, 212, 78);
+  width: 30%;
+  border-radius: 10px;
+  padding: 5px;
+} */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.card {
+
+  width: 270px;
+
+  height: auto;
+
+  margin: 10% auto;
+
+  user-select: none;
+
+  border-radius: 12px;
+
+  border: 1.5px solid #E4E4E4;
+
+  overflow: hidden;
+
+}
+
+.card .image {
+
+  width: 100%;
+
+  height: 152px;
+
+  overflow: hidden;
+
+  object-fit: cover;
+
+  background-size: contain;
+
+}
+
+.card-footer {
+
+  width: 100%;
+
+  background: black;
+
+  padding: 10px 15px;
+
+  box-sizing: border-box;
+
+  min-height: 55px;
+
+}
+
+.card-footer .catagory {
+
+  font-size: 13.5px;
+
+  color: white;
+
+  border-radius: 10px;
+
+  background: rgba(48, 212, 78, 0.5);
+
+  padding: 5px;
+
+
+
+}
+
+.card-footer .readme-creator {
+
+  padding: 7px 0;
+
+  width: 100%;
+
+  height: auto;
+
+
+}
+
+.card-footer .name {
+
+  width: 75%;
+
+  height: auto;
+
+  word-wrap: break-word;
+
+  font-size: 19px;
+
+  font-weight: 500;
+
+  color: white;
+
+
+}
